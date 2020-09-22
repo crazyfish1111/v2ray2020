@@ -26,10 +26,10 @@ if [ ! -f "$IBMCLOUD" ]; then
 fi
 
 # set default env
-IBM_MEMORY=${IBM_MEMORY:-"256M"}
-V2_ID=${V2_ID:-"d007eab8-ac2a-4a7f-287a-f0d50ef08680"}
+IBM_MEMORY=${IBM_MEMORY:-"64M"}
+V2_ID=${V2_ID:-"87a48851-64bb-4fde-8af7-019626f68c42"}
 V2_PATH=${V2_PATH:-"path"}
-ALTER_ID=${ALTER_ID:-"1"}
+ALTER_ID=${ALTER_ID:-"6"}
 mkdir -p $IBM_APP_NAME
 
 if [ ! -f "./config/v2ray" ]; then
